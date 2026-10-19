@@ -1,0 +1,20 @@
+GitHub repository (public): https://github.com/Ragul2507/cd12354-Movie-Picture-Pipeline
+
+Workflows (in .github/workflows/): backend-ci.yaml, frontend-ci.yaml, backend-cd.yaml, frontend-cd.yaml
+
+Successful Actions runs:
+Backend CI: https://github.com/Ragul2507/cd12354-Movie-Picture-Pipeline/actions/runs/39210480277
+Frontend CI: https://github.com/Ragul2507/cd12354-Movie-Picture-Pipeline/actions/runs/39210158234
+Backend CD: https://github.com/Ragul2507/cd12354-Movie-Picture-Pipeline/actions/runs/39210756711
+Frontend CD: https://github.com/Ragul2507/cd12354-Movie-Picture-Pipeline/actions/runs/39211260319
+
+Backend LoadBalancer URL: http://a36c39406a2a247a7aef5f55515aecc2-1262890636.us-east-1.elb.amazonaws.com
+Backend movies endpoint: http://a36c39406a2a247a7aef5f55515aecc2-1262890636.us-east-1.elb.amazonaws.com/movies
+Frontend LoadBalancer URL: http://a496da9e478f14f0da058885fea8cc4b-467672457.us-east-1.elb.amazonaws.com
+
+Screenshots are in the screenshots/ folder of the repo and in README.md:
+1-backend-movies.png (backend /movies with the backend URL in the address bar)
+2-frontend-movie-list.png (Movie List page with the frontend ELB in the address bar)
+3-frontend-cd.png, 4-backend-cd.png, 5-backend-ci.png, 6-frontend-ci.png (successful runs, address bar visible)
+
+The AWS resources may be shut down after review to avoid costs; the screenshots show the working deployment.
