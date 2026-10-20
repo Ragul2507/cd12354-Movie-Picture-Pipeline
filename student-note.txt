@@ -18,6 +18,5 @@ Screenshots are in the Screenshots/ folder of the repo and listed in README.md:
 2-frontend-movie-list.png (Movie List page with the frontend ELB in the address bar)
 3-frontend-cd.png, 4-backend-cd.png, 5-backend-ci.png, 6-frontend-ci.png (successful runs, address bar visible)
 
-I also added your optional suggestions to README.md: workflow status badges at the top and a deployment summary with the image tag and application links.
 
-The AWS resources may be shut down after review to avoid costs; the screenshots show the working deployment.
+The AWS resources may be shut down after some time to avoid costs; the screenshots show the working deployment.
