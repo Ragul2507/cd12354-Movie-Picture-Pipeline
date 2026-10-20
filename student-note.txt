@@ -10,8 +10,7 @@ Frontend CD: https://github.com/Ragul2507/cd12354-Movie-Picture-Pipeline/actions
 
 Update after your feedback: frontend-ci.yaml now has npm caching in the lint and test jobs, and the build job has Node setup, npm caching and npm ci before the Docker build. I re-ran it and the run above is green; its log shows "Cache hit".
 
-Backend LoadBalancer URL: http://a36c39406a2a247a7aef5f55515aecc2-1262890636.us-east-1.elb.amazonaws.com
-Backend movies endpoint: http://a36c39406a2a247a7aef5f55515aecc2-1262890636.us-east-1.elb.amazonaws.com/movies
+Backend LoadBalancer URL: http://a36c39406a2a247a7aef5f55515aecc2-1262890636.us-east-1.elb.amazonaws.com/movies
 Frontend LoadBalancer URL: http://a496da9e478f14f0da058885fea8cc4b-467672457.us-east-1.elb.amazonaws.com
 
 Screenshots are in the Screenshots/ folder of the repo and listed in README.md:
