@@ -4,16 +4,21 @@ Workflows (in .github/workflows/): backend-ci.yaml, frontend-ci.yaml, backend-cd
 
 Successful Actions runs:
 Backend CI: https://github.com/Ragul2507/cd12354-Movie-Picture-Pipeline/actions/runs/39210480277
-Frontend CI: https://github.com/Ragul2507/cd12354-Movie-Picture-Pipeline/actions/runs/39210158234
+Frontend CI: https://github.com/Ragul2507/cd12354-Movie-Picture-Pipeline/actions/runs/39366477430
 Backend CD: https://github.com/Ragul2507/cd12354-Movie-Picture-Pipeline/actions/runs/39210756711
 Frontend CD: https://github.com/Ragul2507/cd12354-Movie-Picture-Pipeline/actions/runs/39211260319
 
-Backend LoadBalancer URL: http://a36c39406a2a247a7aef5f55515aecc2-1262890636.us-east-1.elb.amazonaws.com/movies
+Update after your feedback: frontend-ci.yaml now has npm caching in the lint and test jobs, and the build job has Node setup, npm caching and npm ci before the Docker build. I re-ran it and the run above is green; its log shows "Cache hit".
+
+Backend LoadBalancer URL: http://a36c39406a2a247a7aef5f55515aecc2-1262890636.us-east-1.elb.amazonaws.com
+Backend movies endpoint: http://a36c39406a2a247a7aef5f55515aecc2-1262890636.us-east-1.elb.amazonaws.com/movies
 Frontend LoadBalancer URL: http://a496da9e478f14f0da058885fea8cc4b-467672457.us-east-1.elb.amazonaws.com
 
-Screenshots are in the screenshots/ folder of the repo and in README.md:
+Screenshots are in the Screenshots/ folder of the repo and listed in README.md:
 1-backend-movies.png (backend /movies with the backend URL in the address bar)
 2-frontend-movie-list.png (Movie List page with the frontend ELB in the address bar)
 3-frontend-cd.png, 4-backend-cd.png, 5-backend-ci.png, 6-frontend-ci.png (successful runs, address bar visible)
 
-The AWS resources may be shut down after a time period to avoid costs; the screenshots show the working deployment.
+I also added your optional suggestions to README.md: workflow status badges at the top and a deployment summary with the image tag and application links.
+
+The AWS resources may be shut down after review to avoid costs; the screenshots show the working deployment.
